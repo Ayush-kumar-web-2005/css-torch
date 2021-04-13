@@ -1,0 +1,316 @@
+
+
+*{
+    margin:0;
+}
+body{
+    background: linear-gradient(to-left,#000,#111);
+    overflow-x:hidden;
+}
+body{
+    background-color:black;
+    
+    
+    }
+    .oo{
+    opacity: .1;
+    transition: all .5s;
+    position:relative;
+    top:30vh;
+    left:40%;
+    height:200px;
+    width:200px;
+    background-color:white;
+    box-shadow:0 0 2.5px  2px #fdfdfd,
+                 0 0 500px  2px #faf8f8,
+                 0 0 25px 2px #fcf9f8,
+                 0 0 500px 2px #fcfafa;
+    }
+    
+    /*on of  */
+
+
+
+    /*on of  */
+    /*on of  */
+    /*on of  */
+    /*on of  */
+    /*on of  */
+    /*on of  */
+    /*on of  */
+    /*on of  */
+    /*on of  */
+    /*on of  */
+
+
+    
+    
+    #of{
+        z-index: -1;
+        position: absolute;
+        opacity: 0;
+        transition: all 2s;
+    }
+    
+    
+    #on{
+        position: absolute;
+        
+        transition: all 2s;
+    }
+    
+    
+        input[class="cb"]{
+        position: relative;
+        width: 60px;
+        height: 25px;
+        -webkit-appearance:none;
+        background: linear-gradient(0deg,#333,#000);
+        border-radius: 20px;
+         text-align: center;
+        }
+        input[class="cb"]:before{
+        content:'';
+            position:absolute;
+            top:0;
+            left:0;
+            width:35px;
+            height:25px;
+            background: linear-gradient(0deg,#000,#6b6b6b);
+            border-radius: 20px;
+        
+        transition:.5s;
+        
+        
+        }
+        input:checked[class="cb"]{
+        
+            background: linear-gradient(0deg,#6dd1ff,#20b7ff);
+        }
+        input:checked[class="cb"]:before{
+        
+        left:25px;
+        
+        }
+        input[class="cb"]:after{
+            content:'';
+            position:absolute;
+            top:6px;
+        
+           
+            left:10px;
+            width:10px;
+            height:10px;
+            background: linear-gradient(0deg,#000,#6b6b6b);
+            border-radius: 20px;
+           background: #000;
+           border-radius: 50%;
+        
+        transition:0.5s;
+        
+        
+        }
+        input:checked[class="cb"]:after{
+        background:#63cdff;
+        left:45px;
+        box-shadow:0 0 5px #13b3ff,0 0 15px #13b3ff;
+        }
+    
+    
+        /*for of  */
+        
+    
+    
+    
+    
+        input[class='cb2']{
+            position: relative;
+            width: 60px;
+            height: 25px;
+            -webkit-appearance:none;
+            border-radius: 20px;
+             text-align: center;
+             background: linear-gradient(0deg,#6dd1ff,#20b7ff);
+    
+            }
+            input[class='cb2']:before{
+                content:'';
+                position:absolute;
+                top:0;
+                left:25px;
+                width:35px;
+                height:25px;
+                background: linear-gradient(0deg,#000,#6b6b6b);
+    
+                border-radius: 20px;
+            
+                transition:.5s;
+            
+            
+            }
+            input:checked[class='cb2']{
+    
+            background: linear-gradient(0deg,#333,#000);
+    
+            
+            }
+            input:checked[class='cb2']:before{
+            
+            left:0;
+            
+            }
+            input[class='cb2']:after{
+                content:'';
+                position:absolute;
+                top:6px;
+            
+               
+                left:45px;
+                width:10px;
+                height:10px;
+                box-shadow:0 0 5px #13b3ff,0 0 15px #13b3ff;
+    
+                border-radius: 20px;
+            background:#63cdff;
+    
+               border-radius: 50%;
+            
+            transition:0.5s;
+            
+            
+            }
+            input:checked[class='cb2']:after{
+               /* background: #000; */
+               box-shadow:none;
+             
+            background: linear-gradient(0deg,#000,#6b6b6b);
+    
+            left:10px;
+            }    
+    
+   /* for on/of  together*/
+    
+    
+    /* #trapezium{
+        border-bottom: 200px solid rgb(38, 0, 255);
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        height: 0;
+        width: 200px;
+    }
+    
+             
+
+#rectangle{
+    width: 200px;
+    height: 100px;
+    background: rgb(4, 0, 255);
+}
+  */
+
+  #onof{
+      /* margin: auto; */
+top: 50vh;
+left:30vw;
+position: relative;
+  }
+
+
+h2{
+    content: 'switch to turn on the light';
+    color: beige;
+    font-size: 2em;
+    font-family: 'Potta One', cursive;
+    position: absolute;
+    top: -15vh;
+    left: -23vw;
+    transition-delay:0.5s ;
+    transition: 1s;
+    /* transform: rotate3d(30deg); */
+
+
+    transform: rotate(-20deg);
+    animation: anime 1s linear infinite;
+
+}  
+@keyframes anime{
+    0%,5%,10%,20%,25%,35%,55%,60%{
+    transform: rotate(0deg);
+
+    }
+    9%,9%,19%,29%,29%,39%,59%,69%,100%{
+        transform: rotate(-2deg);
+    
+        }
+}
+h1{
+    color: aquamarine;
+    font-family: 'Hachi Maru Pop', cursive;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    font-size: 3em;
+    padding: 10px 10px 10px 10px;
+
+}    
+
+
+
+
+
+
+
+
+.t:hover{
+    cursor: pointer;
+    color: blueviolet;
+    /* 
+    font-size: smaller;
+     */
+     animation: giga .5s linear 1;
+
+}
+@keyframes giga{
+    0%{
+    font-size:unset;
+
+    }
+    50%{
+        /* font-size:smaller; */
+        transform:scaleX(1.5) ;
+
+    }
+    55%{
+    font-size:unset;
+    transform: scaleY(1.5);
+
+    }
+    75%{
+        /* font-size: larger; */
+        transform: translateX(10px);
+        
+        
+    }
+    80%{
+        font-size:unset;
+        transform: skewX(30deg);
+        transform: translateY(-10px);
+
+
+
+    }
+    85%{
+        /* font-size:smaller; */
+        transform: skewY(-30deg);
+
+
+    }
+    100%{
+    font-size:unset;
+
+    }
+}
+h1{
+    left:20vw;
+    display: flex;
+}
